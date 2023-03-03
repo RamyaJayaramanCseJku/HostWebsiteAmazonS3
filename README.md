@@ -13,7 +13,7 @@ Here are the simple steps to follow.
 <li>In the S3 bucket, click on the "Properties" tab and then click on "Static website hosting" at the bottom of page.</li>
 <li>Choose "Use this bucket to host a website" and enter the name of your index document (usually "index.html").</li>
 <li>In permissions tab, navigate to the bucket policy. The bucket policy, written in JSON, provides access to the objects stored in the bucket. Use the following json object to enable public read access for the bucket we created.
-'''{
+```{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -25,7 +25,7 @@ Here are the simple steps to follow.
         }
     ]
 }
-'''
+```
 <li>Once the files have been uploaded, you can view your website by clicking on the Object URL link under the bucket's Objects properties.
 </li>
-<li>Navigate to the buckets->click on created bucket->root folder(index.html)->Object overview->Object URL link.  This link will take you to your website hosted on S3.</li>
+<li>Navigate to the buckets->click on created bucket->root folder(index.html)->Object overview->Object URL link. This link will take you to your website hosted on S3.</li>
