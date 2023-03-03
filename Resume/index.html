@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript" src="Script.js"></script>
+
+    <title>Resume</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <main>
+      <div class="Introduction media">
+        <div>
+          <h5>Personal Details</h5>
+          <div class="container">
+            <div class="About left">
+              I am Ramya Jayaraman, i would like to become an enthusiastic
+              front-end developer by developing web and mobile application with
+              Js framework.
+            </div>
+            <div class="right">
+              <img
+                src="../assets/Profile_New.jpg"
+                alt="Profile_picture"
+                class="profile"
+              />
+            </div>
+          </div>
+          <table>
+            <tbody>
+              <tr>
+                <th>Contact</th>
+                <th>Skills</th>
+              </tr>
+              <tr>
+                <td><i class="fa fa-envelope"></i> ramyacse.gmail.com</td>
+                <td>
+                  <img src="../assets/javascript.png" class="icons" />
+                  Javascript
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fa fa-mobile"></i> 68864135030</td>
+                <td>
+                  <img src="../assets/atom.png" class="icons" /> React Native
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fa fa-map-marker"></i> Linz, Austria</td>
+                <td>
+                  <i class="fa fa-html5"></i> HTML5
+                  <i class="fa fa-css3"></i> CSS3
+                  <img src="../assets/bootstrap.png" class="icons" /> Bootstrap
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-linkedin-square"></i>
+                  <a href="https://www.linkedin.com/in/ramyajayaraman/"
+                    >linkedin</a
+                  >
+                </td>
+                <td><i class="fa fa-database"></i> Postgresql</td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-github"></i>
+                  <a href="https://github.com/RamyaJayaramanCseJku/">GitHub</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="resume-header">
+        <button class="header" onclick="ShowContent('work')" value="work">
+          Work Experience
+        </button>
+        <!-- <button
+          class="header"
+          onclick="ShowContent('projects')"
+          value="projects"
+        >
+          Own Projects
+        </button> -->
+        <button
+          class="header"
+          onclick="ShowContent('education')"
+          value="education"
+        >
+          Education
+        </button>
+        <button
+          class="header"
+          onclick="ShowContent('certification')"
+          value="certifications"
+        >
+          Certifications
+        </button>
+      </div>
+
+      <div class="description" id="work">
+        <div>
+          <h5>Researcher- CDL MINT</h5>
+
+          <p>Working as a researcher for digital twin projects.</p>
+          <ul>
+            <li>Creation of REST API's with <b>Python</b> Flask framework</li>
+            <li>
+              Integration of REST data with <b>PostgreSQL</b> database using
+              sqlalchemy
+            </li>
+            <li>Data visualization using <b>React</b></li>
+            <li>Code Deployment using <b>Docker</b> Container</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Full Stack Developer - Integral Insurance Broker GmBH</h5>
+
+          <p>Contracts for mobile and insurance.</p>
+          <ul>
+            <li>
+              Creation of ASP.Net MVC applications in <b>.Net</b> framework
+            </li>
+            <li>Front-end design using <b>HTML,CSS,Bootstrap</b></li>
+            <li>Manging contracts using <b>CRM</b></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Full Stack Developer - PhyHive Healthcare Solutions, (India)</h5>
+          <p>Web Applications for healthcare sectors.</p>
+          <ul>
+            <li>Creation of ASP.Net Web API's in <b>.Net</b> framework</li>
+            <li>Data Management using MySQL server database</li>
+            <li>Web application development using <b>Angular Js</b></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="description" id="projects" style="display: none">
+        <div>
+          <h5>Mobile App Development</h5>
+          <p>Step count measurement with mobile inbuilt-sensors.</p>
+          <ul>
+            <li>
+              Mobile app to calculate the step count built with React Native
+              framework
+            </li>
+            <li>
+              <a href="">Step Counter</a>
+            </li>
+          </ul>
+        </div> -->
+        <!--  <div>
+          <h5>Web Application Development</h5>
+
+          <p>Price Comparison for products online.</p>
+          <ul>
+            <li>
+              Web application to compare price of online prodcuts from Amazon
+              and flipkart using the React framework
+            </li>
+            <li>
+              <a href="">Product Price Compare</a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+      <div class="description" id="education" style="display: none">
+        <div>
+          <h5>Masters in Computer Science- JKU, Linz</h5>
+          <p>Software-Engineering</p>
+        </div>
+        <div>
+          <h5>Bachelors in Computer Science- PSVPEC, India</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="description" id="certification" style="display: none">
+        <div>
+          <li>
+            <a
+              href="https://www.freecodecamp.org/certification/RamyaJayaraman/responsive-web-design"
+              >Responsive Web Design</a
+            >- FreeCodeCamp
+          </li>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
