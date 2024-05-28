@@ -30,6 +30,7 @@ Here are the simple steps to follow.
     </ul>
 <li>Once the files have been uploaded, you can view your website by clicking on the Object URL link under the bucket's Objects properties.
 </li>
-<li>Navigate to the buckets->click on created bucket->root folder(index.html)->Object overview->Object URL link. This link will take you to your website hosted on S3.</li>
+<li>Navigate to the buckets->click on created bucket->root folder(index.html)->Object overview->Object URL link. This page link will take you to your html website hosted on S3.</li>
 </ol>
-    
+    The static website folder is hosted on s3 and the website link is as follows:<br/>
+    [website](https://resume-ramya.s3.eu-central-1.amazonaws.com/OnlineResume/Resume.html)
