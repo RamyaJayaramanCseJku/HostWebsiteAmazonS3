@@ -33,4 +33,4 @@ Here are the simple steps to follow.
 <li>Navigate to the buckets->click on created bucket->root folder(index.html)->Object overview->Object URL link. This page link will take you to your html website hosted on S3.</li>
 </ol>
     The static website folder is hosted on s3 and the website link is as follows:<br/>
-    [website](https://resume-ramya.s3.eu-central-1.amazonaws.com/OnlineResume/Resume.html)
+    [website]("https://resume-ramya.s3.eu-central-1.amazonaws.com/OnlineResume/Resume.html")
